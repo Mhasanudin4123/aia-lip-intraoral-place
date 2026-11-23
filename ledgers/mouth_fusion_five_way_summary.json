@@ -1,0 +1,46 @@
+{
+  "unweighted_mean": 0.5696967399309792,
+  "unweighted_sd": 0.1767618769630872,
+  "pooled": {
+    "pooled_accuracy": 0.5720670391061452,
+    "pooled_macro_f1": 0.5337408629994952,
+    "per_class_f1": {
+      "B_P": 0.7175843694493783,
+      "M_N": 0.6866359447004609,
+      "D_N": 0.4,
+      "P_F": 0.5256410256410257,
+      "T_D": 0.33884297520661155
+    },
+    "per_class_recall": {
+      "B_P": 0.6537216828478964,
+      "M_N": 0.7095238095238096,
+      "D_N": 0.38349514563106796,
+      "P_F": 0.6029411764705882,
+      "T_D": 0.4019607843137255
+    },
+    "n_clips": 895
+  },
+  "place_diagnostics": {
+    "place_accuracy": 0.6547486033519553,
+    "alveolar_n": 308,
+    "alveolar_to_labial": 107,
+    "alveolar_place_recall": 0.6038961038961039,
+    "labial_place_recall": 0.6917148362235067
+  },
+  "smote": false,
+  "visual_archive": "features_mouth_roi_intraoral_50hz_loso51.npz",
+  "acoustic_archive": "features_multilayer_ssl_formant_50hz_loso51.npz",
+  "place_only": false,
+  "paired_vs_multilayer": {
+    "mean_delta_pp": -3.115744955287555,
+    "cohens_d": -0.18681750835574043,
+    "wilcoxon_p": 0.19497579208221627,
+    "n_folds": 51
+  },
+  "paired_vs_frame_whisper_stte": {
+    "mean_delta_pp": 1.0323835860087793,
+    "cohens_d": 0.06304901803883511,
+    "wilcoxon_p": 0.9422387675048017,
+    "n_folds": 51
+  }
+}

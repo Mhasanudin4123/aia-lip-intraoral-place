@@ -1,0 +1,45 @@
+{
+  "model": "place96_repr_layer_weights_lip_time",
+  "butir": 4,
+  "deployable_five_way": false,
+  "n_folds": 51,
+  "n_clips": 895,
+  "n_parameters": 129315,
+  "smote": false,
+  "temporal_smote": false,
+  "cluster_ci_95": [
+    0.5299542938186884,
+    0.6213765395753444
+  ],
+  "pooled_place_accuracy": 0.5865921787709497,
+  "place_macro_f1": 0.5496910192299874,
+  "per_place_recall": {
+    "labial": 0.5452793834296724,
+    "alveolar": 0.6363636363636364,
+    "labiodental": 0.6764705882352942
+  },
+  "alveolar_to_labial": 93,
+  "alveolar_n": 308,
+  "confusion_true_rows_pred_cols": [
+    [
+      283,
+      162,
+      74
+    ],
+    [
+      93,
+      196,
+      19
+    ],
+    [
+      16,
+      6,
+      46
+    ]
+  ],
+  "gate_place": 0.96,
+  "gate_alveolar_to_labial": 10,
+  "gate_pass": false,
+  "decision": "No-Go",
+  "next_branch": "representation_change_did_not_meet_gate"
+}

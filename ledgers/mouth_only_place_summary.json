@@ -1,0 +1,34 @@
+{
+  "unweighted_mean": 0.5036481855478091,
+  "unweighted_sd": 0.19034137239714458,
+  "pooled": {
+    "pooled_accuracy": 0.5016759776536313,
+    "pooled_macro_f1": 0.40718401785964886,
+    "per_class_f1": {
+      "labial": 0.5787847579814624,
+      "alveolar": 0.4666666666666667,
+      "labiodental": 0.1761006289308176
+    },
+    "per_class_recall": {},
+    "n_clips": 895
+  },
+  "place_diagnostics": {
+    "place_accuracy": 0.5016759776536313,
+    "per_place_f1": {
+      "labial": 0.5787847579814624,
+      "alveolar": 0.4666666666666667,
+      "labiodental": 0.1761006289308176
+    },
+    "alveolar_to_labial": 132,
+    "alveolar_n": 308
+  },
+  "smote": false,
+  "visual_archive": "features_mouth_roi_intraoral_50hz_loso51.npz",
+  "acoustic_archive": "features_multilayer_ssl_formant_50hz_loso51.npz",
+  "place_only": true,
+  "place_only_arm": {
+    "pooled_acc_pct": 50.17,
+    "alveolar_to_labial": 132,
+    "alveolar_n": 308
+  }
+}

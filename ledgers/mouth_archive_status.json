@@ -1,0 +1,10 @@
+{
+  "n_requested": 895,
+  "n_ok": 895,
+  "n_failed": 0,
+  "tmax": 249,
+  "length_median": 50.0,
+  "intra_dim": 4,
+  "archive": "features_mouth_roi_intraoral_50hz_loso51.npz",
+  "failed_sample": []
+}

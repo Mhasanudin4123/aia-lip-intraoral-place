@@ -1,0 +1,66 @@
+{
+  "unweighted_mean": 0.5440097920019848,
+  "unweighted_sd": 0.15553622777903645,
+  "oracle_place_unweighted_mean": 0.8678407833223956,
+  "oracle_place_pooled": 0.864804469273743,
+  "pooled": {
+    "pooled_accuracy": 0.5441340782122905,
+    "pooled_macro_f1": 0.5055318645318214,
+    "per_class_f1": {
+      "B_P": 0.6896551724137931,
+      "M_N": 0.6021505376344086,
+      "D_N": 0.4494949494949495,
+      "P_F": 0.43781094527363185,
+      "T_D": 0.34854771784232363
+    },
+    "per_class_recall": {
+      "B_P": 0.6472491909385113,
+      "M_N": 0.5333333333333333,
+      "D_N": 0.4320388349514563,
+      "P_F": 0.6470588235294118,
+      "T_D": 0.4117647058823529
+    },
+    "n_clips": 895
+  },
+  "place_diagnostics": {
+    "place_accuracy": 0.6134078212290502,
+    "alveolar_n": 308,
+    "alveolar_to_labial": 77,
+    "alveolar_place_recall": 0.6818181818181818
+  },
+  "smote": false,
+  "place_archive": "features_bidi_conformer_50hz_loso51.npz",
+  "manner_labial": "loso51_two_stage_labial.json",
+  "manner_alveolar": "loso51_two_stage_alveolar.json",
+  "note": "oracle_place replaces the place stage with the true place label; not a trainable result",
+  "paired_vs_multilayer": {
+    "mean_delta_pp": -5.684439748186992,
+    "cohens_d": -0.2800052501256071,
+    "wilcoxon_p": 0.08477891501581131,
+    "n_folds": 51
+  },
+  "paired_vs_prior_two_stage_av": {
+    "mean_delta_pp": 1.2292663539410027,
+    "cohens_d": 0.07554367061845821,
+    "wilcoxon_p": 0.6202777777636317,
+    "n_folds": 51
+  },
+  "cluster_ci_95": [
+    0.5021141966389474,
+    0.5857373247083417
+  ],
+  "summary_pct": {
+    "cluster_ci_95": [
+      50.21,
+      58.57
+    ],
+    "place_accuracy_pct": 61.34,
+    "place_fold_mean_pct": 61.3,
+    "alveolar_to_labial": 77,
+    "alveolar_place_recall_pct": 68.18,
+    "oracle_place_mean_pct": 86.78,
+    "oracle_place_pooled_pct": 86.48,
+    "delta_vs_multilayer_pp": -5.68,
+    "delta_vs_prior_av_pp": 1.23
+  }
+}
